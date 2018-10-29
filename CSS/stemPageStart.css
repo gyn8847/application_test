@@ -1,0 +1,369 @@
+{box-sizing: border-box;}
+
+.header {
+  	background-color: #5a3c1e;
+  	height: 70px;
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+.header2 {
+  	background-color: #785a3c;
+  	color: #785a3c;
+  	height: 70px;
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+.framedefinition {
+	padding-left:150px;
+	padding-top:50px;
+}
+
+h1 {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 22px; 
+}
+
+h3 {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 18px;
+	margin-top: -10px;
+}
+
+div {
+    color: #000000;
+}
+
+body {
+	background: #96785a;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#total_votes
+{
+	font-size:30px;
+	color:#FE2E2E;
+	font-weight:bold;
+}
+
+.div p
+{
+	margin:0px;
+	font-size:20px;
+	text-align:left;
+	color:#E6E6E6;
+}
+
+p
+{
+	color: #ffffff;
+}
+
+button {
+	border-radius: 16px;
+	background-color: #5a3c1e;
+	color: #ffffff;
+	margin-top: 5px;
+	padding: 16px;
+	width: 240px;
+	font-size: 16px;
+	border: 8px;
+	cursor: pointer;
+}
+
+.logo {
+	position: absolute; 
+	top: 0px; 
+	left: 150px;
+}
+
+.buttontitle {
+	float: right;
+	margin-right: 10px;
+	border-radius: 16px;
+	background-color: #5a3c1e;
+	color: #ffffff;
+	padding: 0px;
+	height: 50px; 
+	width: 140px;
+	font-size: 16px;
+	border: 8px;
+	cursor: pointer;
+}
+
+.buttonquestion {
+	float: right;
+	margin-right: 10px;
+	border-radius: 16px;
+	background-color: #5a3c1e;
+	color: #ffffff;
+	margin-top: -8px;
+	padding: 0px;
+	height: 50px;
+	weight: 50px; 
+	font-size: 16px;
+	border: 8px;
+	cursor: pointer;
+}
+
+.sbutton {
+	background-color: #0064a0;
+	color: #ffffff;
+	padding: 16px;
+	height: 175px;
+	width: 250px;
+	font-size: 14px;
+	cursor: pointer;
+	white-space: normal;
+	position: absolute; 
+	top: 350px; 
+	left: 150px;
+}
+
+.tbutton {
+    background-color: #64007f;
+    color: #ffffff;
+    padding: 16px;
+    height: 175px;
+    width: 250px;
+    font-size: 14px;
+    cursor: pointer;
+	white-space: normal;
+	position: absolute; 
+	top: 350px; 
+	left: 400px;
+}
+
+.ebutton {
+    background-color: #a05000;
+    color: #ffffff;
+    padding: 16px;
+    height: 175px;
+    width: 250px;
+    font-size: 14px;
+    cursor: pointer;
+	white-space: normal;
+	position: absolute; 
+	top: 525px; 
+	left: 150px;
+}
+
+.mbutton {
+    background-color: #a00000;
+    color: #ffffff;
+    padding: 16px;
+	height: 175px;
+    width: 250px;
+    font-size: 14px;
+    cursor: pointer;
+	white-space: normal;
+	position: absolute; 
+	top: 525px; 
+	left: 400px;
+}
+.nextpagebutton {
+	border-radius: 16px;
+	background-color: #5a3c1e;
+	color: #ffffff;
+	margin-top: 5px;
+	padding: 16px;
+	width: 240px;
+	font-size: 16px;
+	border: 8px;
+	cursor: pointer;
+	position: absolute; 
+	top: 700px; 
+	left: 150px;	
+}
+.stembutton	{
+	paddding:20vh;
+	padding-left:02vw;
+	width:95vw;
+	height:80vh;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100vw; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #5a3c1e;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	
+	h1 {
+		color: #000000;
+		font-family: Verdana;
+		font-size: 16px; 
+	}
+	
+	h2 {
+		color: #000000;
+		font-family: Verdana;
+		font-size: 14px; 
+	}
+
+	h3 {
+		color: #000000;
+		font-family: Verdana;
+		font-size: 12px;
+	}
+	
+	.header {
+  		background-color: #5a3c1e;
+ 		height: 0px;
+	}
+	
+  	.framedefinition {
+		padding-left: 2vw;
+    		padding-top: 0vh;
+   		height: 18vh;
+		width: 100vw;
+	}
+	
+	.logo {
+		position: absolute; 
+		top: 0px; 
+		left: 5px;
+		height: 80px;
+		width: 80px;
+		;
+	}
+	
+	button {
+		border-radius: 16px;
+		background-color: #5a3c1e;
+		color: #ffffff;
+		margin-top: 5px;
+		padding: 16px;
+		width: 240px;
+		font-size: 14px;
+		border: 8px;
+		cursor: pointer;
+	}
+	
+	.buttontitle {
+		float: right;
+		margin-right: 5px;
+		border-radius: 16px;
+		background-color: #5a3c1e;
+		color: #ffffff;
+		padding: 0px;
+		height: 50px; 
+		width: 100px;
+		font-size: 12px;
+		border: 8px;
+		cursor: pointer;
+	}
+	
+	.sbutton {
+    	background-color: #0064a0;
+    	color: #ffffff;
+    	padding: 4px;
+	height: 42vw;
+    	width: 42vw;
+    	font-size: 12px;
+    	cursor: pointer;
+	white-space: normal;
+	position: absolute; 
+	top: 95vw; 
+	left: 10px;
+		
+	}
+
+	.tbutton {
+    	background-color: #64007f;
+    	color: #ffffff;
+    	padding: 4px;
+	height: 42vw;
+    	width: 42vw;
+    	font-size: 12px;
+    	cursor: pointer;
+		white-space: normal;
+		position: absolute; 
+		top: 95vw; 
+		left: 45vw;
+	}
+
+	.ebutton {
+    	background-color: #a05000;
+    	color: #ffffff;
+    	padding: 4px;
+	height: 42vw;
+    	width: 42vw;
+    	font-size: 12px;
+    	cursor: pointer;
+		white-space: normal;
+		position: absolute; 
+		top: 136vw; 
+		left: 10px;
+	}
+
+	.mbutton {
+    	background-color: #a00000;
+    	color: #ffffff;
+    	padding: 4px;
+	height: 42vw;
+    	width: 42vw;
+    	font-size: 12px;
+    	cursor: pointer;
+		white-space: normal;
+		position: absolute; 
+		top: 136vw; 
+		left: 45vw;
+	}	
+	
+	.nextpagebutton {
+	border-radius: 16px;
+	background-color: #5a3c1e;
+	color: #ffffff;
+	margin-top: 5px;
+	padding: 16px;
+	width: 240px;
+	font-size: 16px;
+	border: 8px;
+	cursor: pointer;
+	position: absolute; 
+	top: 179vw; 
+	left: 10px;
+	}
+
+	
+}
+
