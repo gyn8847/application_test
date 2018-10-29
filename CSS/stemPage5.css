@@ -95,7 +95,7 @@ body {
 .div p
 {
 	margin:0px;
-	font-size:20px;
+	font-size:18px;
 	text-align:left;
 	color:#E6E6E6;
 }
@@ -137,8 +137,8 @@ button {
 }
 
 .container {
-	height: 50vw;
-	width: 70vw;
+	height: 60vw;
+	width: 84vw;
 	margin: 40px auto 0 auto;   
 	background-color: #e30613;
 	box-sizing: border-box;
@@ -257,7 +257,7 @@ h1 {
 	font-family: Verdana;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-	font-size: 46px; 
+	font-size: 40px; 
 	transition: .5s;
 	color: #131313;
     	background-color: #e7e5e4;
