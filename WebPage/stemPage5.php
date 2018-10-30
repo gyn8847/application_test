@@ -53,7 +53,7 @@
 					<p> - Do you look beyond a problem to suggest a variety of solutions</p>
 					<p> - "Thinking outside the box"</p>
 					<p> - Sherlock Holmes is a good example of this<br /></p></p>
-					<form action="results.php" onSubmit="JavaScript:SetCreative()">
+					<form action="stemPageResult.php" onSubmit="JavaScript:SetCreative()">
             					<button type="submit" formaction = "stemPageResult.php" class="buttontitle" >Continue to next page ►</button>
 					</form>
 				</div>
@@ -72,7 +72,7 @@
 					<p> - Follow a process that is already defined to find solutions</p>
 					<p> - The ability to give the correct answer to tasks that do not require creativity</p>
 					<p> - "Thinking inside the box"<br /></p>
-					<form action="results.php" onSubmit="JavaScript:SetConvergent()">
+					<form action="stemPageResult.php" onSubmit="JavaScript:SetConvergent()">
             					<button type="submit" formaction = "stemPageResult.php" class="button" >Continue to next page ►</button>
 					</form>
 				</div>
