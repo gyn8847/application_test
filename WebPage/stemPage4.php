@@ -52,7 +52,7 @@
 				
 				<p>You prefer to work outside in nature or at a construction site</p>
 				
-				<form action="fifth.php" onSubmit="JavaScript:SetOutside()">
+				<form action="stemPage5.php" onSubmit="JavaScript:SetOutside()">
 				<button type="submit" formaction="stemPage5.php" align="middle">Select this option</button>
 				</form>		
 			</div>
@@ -61,7 +61,7 @@
 				<image class="imageinside" src="../images/question4/webwxgetmsgimg.jpg" ;>
 				<p>You prefer to work inside at an office with a computer or customer.</p>
 					
-				<form action="fifth.php "onSubmit="JavaScript:SetInside()">
+				<form action="stemPage5.php "onSubmit="JavaScript:SetInside()">
 				<button type="submit" formaction="stemPage5.php" align="middle">Select this option</button>
 				</form>	
 			</div>
