@@ -137,7 +137,7 @@
 	
 	//PAGE 2
 	
-	technologyResult = technologyResult + computerScore*6;
+	technologyResult = technologyResult + computerScore*12;
 	mathematicsResult = mathematicsResult + pythagorasScore*4;
 	engineeringResult = mathematicsResult + pythagorasScore*2;
 	scienceResult = scienceResult + cellScore*6;
