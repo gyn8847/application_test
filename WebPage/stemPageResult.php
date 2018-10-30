@@ -157,7 +157,7 @@
 	scienceResult = scienceResult + individualScore*10;
 	engineeringResult = engineeringResult + individualScore*3;
 	engineeringResult = engineeringResult + teamworkScore*7;
-	technologyResult = technologyResult + teamworkScore*1000;
+	technologyResult = technologyResult + teamworkScore*10;
 	
 	//PAGE 4
 	scienceResult = scienceResult + outsideScore*5;
