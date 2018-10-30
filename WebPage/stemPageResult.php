@@ -157,7 +157,7 @@
 	scienceResult = scienceResult + individualScore*10;
 	engineeringResult = engineeringResult + individualScore*3;
 	engineeringResult = engineeringResult + teamworkScore*7;
-	technologyResult = technologyResult + teamworkScore*10;
+	technologyResult = technologyResult + teamworkScore*1000;
 	
 	//PAGE 4
 	scienceResult = scienceResult + outsideScore*5;
@@ -165,10 +165,10 @@
 	scienceResult = scienceResult + insideScore*10;
 	engineeringResult = engineeringResult + insideScore*5;
 	mathematicsResult = mathematicsResult + insideScore*10;
-	technologyResult = technologyResult + insideScore*10;
+	technologyResult = technologyResult + insideScore*10000;
 	
 	//PAGE 5
-	technologyResult = scienceResult + creativeScore*10;
+	technologyResult = scienceResult + creativeScore*100000;
 	scienceResult = scienceResult + creativeScore*10;
 	mathematicsResult = mathematicsResult + convergentScore*10;
 	engineeringResult = engineeringResult + convergentScore*10;
