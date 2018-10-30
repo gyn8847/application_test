@@ -126,14 +126,14 @@
 	
 	//PAGE 1
 	
-	scienceResult = scienceResult + (biologyScore*2 - 2);
-	mathematicsResult = mathematicsResult + (calculusScore*2 - 2);
-	engineeringResult = engineeringResult + (calculusScore - 1);
-	scienceResult = scienceResult + (chemistryScore*2 - 2);
-	scienceResult = scienceResult + (physicsScore - 1);
-	engineeringResult = engineeringResult + (physicsScore - 1);
-	technologyResult = technologyResult + (physicsScore - 1);
-	mathematicsResult = mathematicsResult + (statisticsScore - 1);
+	scienceResult = scienceResult + (biologyScore*2);
+	mathematicsResult = mathematicsResult + (calculusScore*2);
+	engineeringResult = engineeringResult + (calculusScore);
+	scienceResult = scienceResult + (chemistryScore*2);
+	scienceResult = scienceResult + (physicsScore);
+	engineeringResult = engineeringResult + (physicsScore);
+	technologyResult = technologyResult + (physicsScore);
+	mathematicsResult = mathematicsResult + (statisticsScore);
 	
 	//PAGE 2
 	
