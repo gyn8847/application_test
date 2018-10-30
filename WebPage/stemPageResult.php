@@ -149,8 +149,8 @@
 	engineeringResult = engineeringResult + hammerScore*6;
 	engineeringResult = engineeringResult + gearScore*4;
 	technologyResult = technologyResult + gearScore*2;
-	scienceResult = scienceResult + periodicScore*5;
-	mathematicsResult = mathematicsResult + periodicScore;
+	scienceResult = scienceResult + periodicScore*4;
+	mathematicsResult = mathematicsResult + periodicScore*2;
 	
 	//PAGE 3
 	mathematicsResult = mathematicsResult + individualScore*10;
