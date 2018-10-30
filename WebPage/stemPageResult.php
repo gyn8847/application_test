@@ -168,7 +168,7 @@
 	technologyResult = technologyResult + insideScore*10000;
 	
 	//PAGE 5
-	technologyResult = scienceResult + creativeScore*100000;
+	technologyResult = technologyResult + creativeScore*100000;
 	scienceResult = scienceResult + creativeScore*10;
 	mathematicsResult = mathematicsResult + convergentScore*10;
 	engineeringResult = engineeringResult + convergentScore*10;
