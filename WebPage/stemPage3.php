@@ -86,7 +86,7 @@
 					</div>
 					</div>
 				
-				<form action="fourth.php" onSubmit="JavaScript:SetIndividual()">
+				<form action="stemPage4.php" onSubmit="JavaScript:SetIndividual()">
 				<button type="submit" formaction="stemPage4.php" object-fit:contain>Choose this option</button>
 				</form>					
 				
@@ -100,7 +100,7 @@
 					</div>
 				</div>
 				
-				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
+				<form action="stemPage4.php" onSubmit="JavaScript:SetTeamwork()">
 				<button type="submit" formaction="stemPage4.php" object-fit:contain>Choose this option</button>
 				</form>
 			</div>	
